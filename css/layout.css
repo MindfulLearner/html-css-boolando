@@ -9,7 +9,7 @@ header > .headerContenuti {
     justify-content: space-between;
 }
 
-/* 2. MAIN CONTAINER */
+/* 2. MAIN CONTAINER calcolo particolare*/
 .main.Container {
     min-height: 800px;
 }
@@ -17,14 +17,16 @@ main > .mainContenuti {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 main > .mainContenuti > .mainCardContainer {
-    width: calc((1055px / 3) - 5px);
+    width: calc((1055px / 3) - 10px);
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
     height: 550px;
-    
+
     display: flex;
     flex-direction: column;
 }

@@ -10,3 +10,75 @@ main > .mainContenuti > .mainCardContainer >.mainCardImgContainer > img {
     height: auto;
 }
 
+main > .mainContenuti > .mainCardContainer >.mainCardImgContainer {
+    position: relative;
+}
+
+
+
+.headerContenutiLogo > img{
+    height: 30px;
+}
+
+.headerContenutiPannelloControllo > i:not(:last-child) {
+    margin-right: 20px;
+}
+
+.nome-prodotto {
+    font-size: 15px;
+}
+
+.costo-prodotto {
+    color: red;
+    font-size: 14px;
+}
+
+.costo-prodotto-sbarrato{
+    text-decoration: line-through;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.identity-hearts {
+    width: 20px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    
+    top: 12px;
+    right: 0px;
+}
+
+.percsost {
+    position: absolute;
+    display: flex;
+    left: 0px;
+    bottom: 16px;
+}
+
+.percentuale {
+    width: 35px;
+    background-color: rgb(91, 255, 154);
+    color: rgb(255, 87, 87);
+    padding: 0px;
+    font-size: 0.75rem; 
+    margin-right: 4px;
+}
+
+
+.Sostenibilita{
+    width: 73px;
+    background-color: rgb(255, 91, 91);
+    color: rgb(255, 233, 233);
+    padding: 0px;
+    font-size: 0.75rem;
+}
+
+footer {
+    color: white;
+}
+
+footer .footerContenuti .footerContenutiLogo .footerContenutiSocial .i-footer > i:not(:last-child) {
+    margin-right: 10px;
+}

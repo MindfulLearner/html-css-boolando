@@ -13,8 +13,3 @@ Bonus
 All'hover sul cuoricino, questo diventa rosso
 Buon lavoro!
 
-## TASKS
-- Fixed su HEADER
-- Usare flex 1 item align stretch  per tutto
-
-IMG DA SISTEMARE

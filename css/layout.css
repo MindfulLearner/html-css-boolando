@@ -31,8 +31,16 @@ main > .mainContenuti > .mainCardContainer {
     flex-direction: column;
 }
 
+.mainCardImgContainer:hover .immagine-2  {
+ display: block;
+ position: absolute;
+ top: 0;
+}
 
-
+/* hoover */
+.immagine-2 {
+    display: none;
+}
 
 
 /* 3. FOOTER CONTAINER */

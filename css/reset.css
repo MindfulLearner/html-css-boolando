@@ -1,0 +1,59 @@
+/* QUI RESETTIAMO LO USIAMO PER COSE GLOBALI ANCHE QUANDO DEFINIAMO SINGOLI TAB */
+
+/* RESET GLOBALE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONT SETUP */
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+/* Width Globale di FORMATTAZIONE Container BOX centrati */
+.header.Container, .main.Container, .footer.Container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+ /* Width Globale di FORMATTAZIONE Contenuti BOX centrati */
+.headerContenuti, .footerContenuti{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.mainContenuti {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/* ALIGN-ITEMS STRETCH E FLEX 1 */
+/* 1. flex1 */
+.header.Container {
+    display: flex;
+    align-items: stretch;
+}
+header > .headerContenuti {
+    display: flex;
+    flex: 1;
+}
+/* 2. flex1*/
+.main.Container {
+    display: flex;
+    align-items: stretch;
+}
+main > .mainContenuti{
+    flex: 1;
+}
+/* 3. flex1 */
+.footer.Container {
+    display: flex;
+    align-items: stretch;
+}
+footer > .footerContenuti {
+    display: flex;
+    flex: 1;
+}

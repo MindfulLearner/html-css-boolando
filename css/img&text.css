@@ -1,0 +1,12 @@
+/* QUI METTEREMO BACKGROUND E IMG E MODIFICHE A SOLO IMG* E TEST */
+
+/* main img settings da sismteare */
+/* main > .mainContenuti > .mainCardContainer >.mainCardContainer {
+    width: 100%;
+} */
+
+main > .mainContenuti > .mainCardContainer >.mainCardImgContainer > img {
+    width: 100%;
+    height: auto;
+}
+

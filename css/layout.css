@@ -1,0 +1,85 @@
+
+/* 1. HEADER CONTAINER */
+.header.Container {
+    min-height: 50px;
+}
+
+header > .headerContenuti {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 2. MAIN CONTAINER */
+.main.Container {
+    min-height: 800px;
+}
+main > .mainContenuti {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main > .mainContenuti > .mainCardContainer {
+    width: calc((1055px / 3) - 5px);
+    height: 550px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/* 3. FOOTER CONTAINER */
+.footer.Container {
+    min-height: 60px;
+}
+footer > .footerContenuti {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*
+    DEBUGGERS
+*/
+/* DEBUG 1.HEADER */
+ .debug > .header.Container {
+    border: 1px dashed black;
+    background-color: #FF7B00;
+ }
+ .debug > header > .headerContenuti {
+    border: 1px dashed black;
+    background-color: #FF8D21;
+ }
+
+/* DEBUG 2. MAIN */
+.debug > .main.Container {
+    border: 1px dashed black;
+    background-color: #ffab44;
+ }
+
+ .debug > main > .mainContenuti {
+    border: 1px dashed black;
+    background-color: #FFA652;
+ }
+
+ .debug > main > .mainContenuti > .mainCardContainer {
+    border: 1px dashed black;
+    background-color: #FF8D21;
+ }
+
+/* DEBUG 3. FOOTER */
+.debug > .footer.Container{
+    border: 1px dashed black;
+    background-color: #FFCD90;
+ }
+
+.debug > footer > .footerContenuti {
+    border: 1px dashed black;
+    background-color: #FFB76B;
+ }
+

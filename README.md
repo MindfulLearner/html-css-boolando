@@ -13,3 +13,8 @@ Bonus
 All'hover sul cuoricino, questo diventa rosso
 Buon lavoro!
 
+
+
+## Considerazioni personali:
+- Test su layout, cosa non va bene a me per ora?
+confusione su spacebetween e eventuali calcoli, attenzione a hoover e decisione di utilizzo float 1, attenzione a divisione css, attenzione ai nomi css, attenzionefixed e position, occhio ai nomi!

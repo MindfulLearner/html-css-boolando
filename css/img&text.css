@@ -85,3 +85,15 @@ footer .footerContenuti .footerContenutiLogo .footerContenutiSocial .i-footer > 
 
 
 /*  */
+
+body {
+    padding-top: 80px;
+}
+
+.header.Container {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}

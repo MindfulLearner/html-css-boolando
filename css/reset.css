@@ -26,8 +26,6 @@ background-color: #FF8D21;
 
 /* Width Globale di FORMATTAZIONE Container BOX centrati */
 .header.Container, .main.Container, .footer.Container {
-    max-width: 95%;
-    margin: 0 auto;
 }
  /* Width Globale di FORMATTAZIONE Contenuti BOX centrati */
 .headerContenuti, .footerContenuti{
